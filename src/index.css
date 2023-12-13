@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* card styles */
+.user--card {
+  box-shadow: #64646f33 0px 7px 29px 0px;
+  margin-bottom: 1rem;
+  color: blue;
+
+  border-radius: 10px;
+  padding: 3rem;
+}
+/*  */
+.user--card h2 {
+  margin-bottom: 1rem;
+}
+.user--card p {
+  color: gray;
+}
+.users {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 20px;
+  margin-top: 3rem;
+}
+/* media Querry section */
+@media screen and (min-width: 768px) {
+  .users {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/* heading styles */
+.heading {
+  color: blue;
+  font-family: "Courier New", Courier, monospace;
+  border-style: dotted;
+  border-color: black;
+  border-radius: 10px;
+}
